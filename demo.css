@@ -1,0 +1,67 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+}
+body{
+
+	background-image: url(2.jpg);
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.word
+{ 
+	position: absolute;
+	top:5%;
+	left:50%;
+	height:8rem;
+	width:80%;
+	margin-left: -40%;
+	font-size: 2rem;
+	color: pink;
+     
+}
+p{
+	text-align:center;
+	width: 100%;
+
+}
+.choose{
+	position:absolute;
+	
+	top:75%;
+    width:60%;
+    height:3rem;
+    margin-left:20%; 
+}
+.choose button{
+	height: 100%;
+	width: 40%;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+}.choose #setpw{
+	float: left;
+}
+.choose #checkpw{
+	float: right;
+}
+.checked{
+    color: #fff;
+	background-color:pink;
+}
+.unchecked{
+	color: #fff;
+	background-color: #8B8989;
+}
+canvas{
+	position: absolute;
+	left: 50%;
+	top:20%;
+}
